@@ -5,11 +5,11 @@ public class Main {
         int firstNumber = inputNumber();
         int secondNumber = inputNumber();
 
-        System.out.println("Большее число: " + minNumber(firstNumber,secondNumber));
+        System.out.println("Меньшее число: " + minNumber(firstNumber,secondNumber));
     }
 
     public static int minNumber(int firstNumber, int secondNumber){
-        return Math.max(firstNumber, secondNumber);
+        return Math.min(firstNumber, secondNumber);
     }
 
     public static int inputNumber(){
