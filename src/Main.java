@@ -9,8 +9,7 @@ public class Main {
     }
 
     public static int minNumber(int firstNumber, int secondNumber){
-        int minNumber = firstNumber > secondNumber ? firstNumber : secondNumber;
-        return minNumber;
+        return Math.max(firstNumber, secondNumber);
     }
 
     public static int inputNumber(){
